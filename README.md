@@ -7,7 +7,7 @@ In a nutshell, this project is on Pose Graph Optimization (PGO) which is typical
 4. PGO related survey paper reading (Optional).
 
 ## How To Run:   
-`PoseGraphOp.ipynb` is the main notebook where you have to code and add answers.    
+`PoseGraphOp.ipynb` is the main notebook where we have the code and answers.    
 `PoseGraphOpHelper.ipynb` has detailed instructions about compilation/libraries usage (for ex, `g2o`, `jax`, `EVO`). 
 
 # Stereo Reconstruction, Structure from Motion, Non-Linear Optimization
@@ -16,3 +16,6 @@ In a nutshell, this project is on Pose Graph Optimization (PGO) which is typical
 - Using the generated reconstruction from the previous part, we synthesize a new image taken by a virtual monocular camera fixed at any arbitrary position and orientation. The task in this part is to recover this pose using an iterative Perspective-from-n-Points (PnP) algorithm.
 - SFM has a couple of important steps which involve finding point correspondences, followed by calculating the fundamental matrix to describe the epipolar geometry constraints. We now find the orientation and location of second camera in the coordinate system of the first camera. This helps us find the baseline. The 3D locations are then calculated by stereo triangulation.
 
+## How To Run:
+
+`stereo.ipynb` is the main notebook where we have the code and answers.   
